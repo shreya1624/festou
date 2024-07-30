@@ -1,0 +1,18 @@
+.headingCont{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px 0px;
+    gap: 10px;
+    font-family: sans-serif;
+
+    .title{
+        margin: 0px;
+        font-size: 24px;
+    }
+    .subtitle{
+        margin: 0px;
+        font-weight: 400;
+        color: #333;
+    }
+}

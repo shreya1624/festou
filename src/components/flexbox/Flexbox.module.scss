@@ -1,0 +1,15 @@
+/* This is just a workaround / polyfill for flex gap property.
+*  Once we remove support for old browsers we can get rid of this and udpate the flexbox
+*/
+@for $i from 1 through 100 {
+    .gap-row-#{$i} > * + * {
+      margin-left: #{$i}px;
+    }
+  }
+  
+  @for $i from 1 through 100 {
+    .gap-column-#{$i} > * + * {
+      margin-top: #{$i}px;
+    }
+  }
+  

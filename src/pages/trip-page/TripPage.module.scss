@@ -1,0 +1,41 @@
+.background{
+    height: 400px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    padding: 40px;
+}
+.cont{
+    width: 970px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+.leftCont{
+    float: left;
+    width:70%;
+    padding-top: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.line{
+    border-top: 1px solid #e4e4e4;
+    margin-top: 20px;
+}
+.highlightCont{
+    list-style: disc;
+    list-style-position: outside;
+    margin: 0;
+    padding-left: 16px;
+    .highlight{
+        font-weight: 500;
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+}

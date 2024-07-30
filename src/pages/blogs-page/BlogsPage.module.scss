@@ -1,0 +1,27 @@
+.background{
+    height: 400px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    padding: 40px;
+}
+.headerContInner{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+
+    .headerTitle{
+        font-weight: 700;
+        font-size: 48px;
+        font-family: "Roboto Condensed", sans-serif;
+        margin-bottom: 0px;
+    }
+    .headerSubtitle{
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+}

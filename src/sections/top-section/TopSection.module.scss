@@ -1,0 +1,33 @@
+.cont{
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    height: 70vh;
+}
+.coverImg{
+    height: 100%;
+    object-fit: cover;
+    width: -webkit-fill-available;
+}
+.contAbsolute{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1369px!important;
+    padding: 0 25.5px;
+    width: 100%;
+    .title{
+        text-align: center;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        color: #fff;
+        max-width: 300px;
+        font-weight: 700;
+        font-size: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}

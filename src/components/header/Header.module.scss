@@ -1,0 +1,46 @@
+.cont{
+    background-color: transparent;
+    color: #000;
+    font-family: Brandon Grotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-size: .8125rem;
+    font-weight: 700;
+    padding: 10px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 5;
+    position: fixed;
+    width:-webkit-fill-available;
+}
+.contLeft{
+    flex-basis: 0;
+    .float{
+        float: left;
+        text-decoration: none;
+    }
+}
+
+.contRight{
+    .link{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.contMiddle{
+    position: relative;
+    z-index: 1;
+    transition: transform .2s linear;
+    will-change: transform;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    .text{
+        font-size: 12px;
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            border-bottom: 1px solid #fff;
+        }
+    }
+}

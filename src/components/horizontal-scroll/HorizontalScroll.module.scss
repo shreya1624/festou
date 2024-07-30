@@ -1,0 +1,29 @@
+.scrollingWrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+    .card {
+      display: inline-block;
+      width: 360px;
+      height: 400px;
+      min-height: 400px;
+      max-height: 400px;
+      margin-right: 16px;
+    }
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+  }
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  
+    .card {
+      flex: 0 0 auto;
+    }
+  }

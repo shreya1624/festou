@@ -1,0 +1,22 @@
+.btnCont{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    min-height: 40px;
+    width: auto;
+    color: #fff;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover{
+        background-color: #fff;
+        color: #000;
+    }
+}
